@@ -1,28 +1,50 @@
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
 
 .App-header {
+  display: flex;
+  align-items: center;
   background-color: #222;
-  height: 150px;
+  height: 40px;
   padding: 20px;
+  min-width: 1000px;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.App-profileBox {
+  display: flex;
+  margin: auto;
+  position: relative;
+  background-color: grey;
+  top: 70px;
+  width: 800px;
+  height: 900px;
 }
 
-.App-intro {
-  font-size: large;
+.App-profile {
+  width: 250px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.logo {
+  width: 60px;
+  height: 60px;
+  padding-right: 20px;
+}
+
+.Search-Form {
+  justify-content: center;
+  padding: auto;
+  left: 20px;
+}
+
+.Search-Input {
+  height: 28px;
+  width: 250px;
+}
+
+.Search-Image {
+  position: relative;
+  top: 12px;
+  width: 29px;
 }
