@@ -1,8 +1,25 @@
 .Profile-Main {
-  width: 250px;
-  height: 350px;
+  display: flex;
+  position: relative;
+  top: 20px;
+  width: 150px;
+  height: 200px;
   background-color: purple;
 }
 .Profile-Picture {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
 
+.Profile-Name {
+  display: inline-block;
+  width: 150px;
+  height: 25px;
+}
+
+.Profile-Name {
+  display: inline-block;
+  width: 150px;
+  height: 25px;
 }
